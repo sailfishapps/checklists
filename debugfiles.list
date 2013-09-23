@@ -1,0 +1,8 @@
+%dir /usr/lib/debug
+%dir /usr/lib/debug/usr
+%dir /usr/lib/debug/usr/bin
+%dir /usr/lib/debug/.build-id
+%dir /usr/lib/debug/.build-id/fd
+/usr/lib/debug/usr/bin/checklists.debug
+/usr/lib/debug/.build-id/fd/7f7d01bd03a16c0a2eb2d0a123dca868d1a2b7.debug
+/usr/lib/debug/.build-id/fd/7f7d01bd03a16c0a2eb2d0a123dca868d1a2b7

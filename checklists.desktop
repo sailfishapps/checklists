@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=checklists
+Icon=icon-launcher-gallery
+Exec=invoker --type=silica-qt5 -s /usr/bin/checklists
+Comment=Sailfish UI application
+
+

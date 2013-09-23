@@ -1,0 +1,23 @@
+Checklists is a simple Sailfish app that assists pilots with completing their checklists.
+It is still beta. Only for testing and for looking at, or re-using code.
+For (starting) developers there are some examples of handling ListViews and C++2QML communication.
+Also, there is a mixed style of the GUI. For in-cockpit use a (non-Sailfish) high-contrast color scheme is used.
+For other use, the standard sailfish Gui is used.
+
+The data of the app are checklists. See the checklists directory.
+Checklists are plain text files. 
+A set of checks are always preceded by a heading. 
+A heading starts with an "*".
+Each check end with newline.
+If you want rows within one check, use an ";"
+
+
+
+copy data files: 
+scp -r -P 2223 (yourDir)/checklists/checklistsdata nemo@localhost:/home/nemo
+to remove the data:
+ssh -p 2223 nemo@localhost (passw=nemo)
+rm -r checklistsdata
+
+Wim de Vries
+wsvries@xs4all.nl
