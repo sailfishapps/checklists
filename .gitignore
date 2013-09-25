@@ -4,3 +4,4 @@ moc*
 *˜
 *.user.*
 MakeFile
+.directory
