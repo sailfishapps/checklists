@@ -1,3 +1,6 @@
+#copy data files: scp -r -P 2223 /home/wim/checklists nemo@localhost:/home/nemo
+#ssh -p 2223 nemo@localhost
+
 # The name of your app
 TARGET = checklists
 
