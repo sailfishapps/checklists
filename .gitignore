@@ -2,3 +2,5 @@ moc*
 *.bak
 *.[oa]
 *˜
+*.user.*
+MakeFile
